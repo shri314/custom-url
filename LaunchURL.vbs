@@ -8,7 +8,7 @@ If Args.Count > 0 Then
 
       REM ########### removing trailing / if it is added implicity
 
-      If ( InStr( SrchTerm, " " ) = 0 AND InStrRev( SrchTerm, "/" ) = Len( SrchTerm ) AND InStr( SrchTerm, "/" ) = Len( SrchTerm ) ) Then
+      If ( InStrRev( SrchTerm, "/" ) = Len( SrchTerm ) AND InStr( SrchTerm, "/" ) = Len( SrchTerm ) ) Then
          SrchTerm=Left( SrchTerm, Len(SrchTerm) - 1 )
       End If
 
