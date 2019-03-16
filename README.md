@@ -7,6 +7,7 @@ Windows Shell Customizations
 
 4. Access URLs from IE Address bar or Run menu:
    ```
+   gg://test search
    google://test search
    stack://abc
    images://abc

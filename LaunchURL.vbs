@@ -21,6 +21,9 @@ If Args.Count > 0 Then
 
       REM ########### dispatch
 
+      If( Protocol = "gg" ) Then
+         R = App.ShellExecute("http://www.google.com/search?q=" & SrchTerm)
+      End If
       If( Protocol = "google" ) Then
          R = App.ShellExecute("http://www.google.com/search?q=" & SrchTerm)
       End If
